@@ -20,11 +20,15 @@ In this project i'm able to create a Scalable 2-tier architecture in AWS using T
 
 - Create a S3 bucket using below AWS CLI Command & replace the S3 bucket name & region in the [providers.tf](https://github.com/naveend3v/aws_2_tier_architecture/blob/main/providers.tf?plain=1#L5) file.
 
-    ```aws s3api create-bucket --bucket <your-bucket-name> --region <your-aws-region> --output json``` 
+    ```
+    aws s3api create-bucket --bucket <your-bucket-name> --region <your-aws-region> --output json
+    ``` 
 
 - Create a Dynamo DB using below AWS CLI Command & replace the DynamodDB Table name in the [providers.tf](https://github.com/naveend3v/aws_2_tier_architecture/blob/main/providers.tf?plain=1#L11) file.
 
-    ```aws dynamodb create-table --region <your-aws-region> --table-name <your-table-name> --attribute-definitions AttributeName=LockID,AttributeType=S --key-schema AttributeName=LockID,KeyType=HASH --billing-mode PAY_PER_REQUEST --output json```
+    ```
+    aws dynamodb create-table --region <your-aws-region> --table-name <your-table-name> --attribute-definitions AttributeName=LockID,AttributeType=S --key-schema AttributeName=LockID,KeyType=HASH --billing-mode PAY_PER_REQUEST --output json
+    ```
 
 ## Blog
 - I have written a detailed guidelines in this blog 👇 Feel free to read & let me know if any changes / issues if you observed.
