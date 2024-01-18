@@ -13,10 +13,7 @@ In this project i'm able to create a Scalable 2-tier architecture in AWS using T
 - Create an [AWS account](https://portal.aws.amazon.com/billing/signup#/start/email) and install & configure [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) using [AWS Access & Secret key](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_root-user_manage_add-key.html)
 
 - [Github](https://github.com/) account & fork the below Python MYSQL Application
-
-    ```
-    https://github.com/naveend3v/Python-MySQL-application
-    ```
+    - [https://github.com/naveend3v/Python-MySQL-application](https://github.com/naveend3v/Python-MySQL-application)
 
 - Install & configure [Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
 
